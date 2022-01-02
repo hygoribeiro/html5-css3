@@ -9,6 +9,8 @@
     margin: 0px;
     padding: 0px;
     border: 0px;
+    width: 100%vw;
+    height: 100%vw;
 }
 
 /*cabeçalho*/
@@ -17,8 +19,6 @@ header{
     position: relative;
     height: 275px;
     background-color: black;
-    
-    
 }
 
 div#menu{
@@ -32,7 +32,8 @@ h1{
     text-align: center;
     color: white;
     font-family:"Passion One", cursive;
-    font-size: 7vw
+    font-size: 7vw;
+    text-transform: uppercase;
 }
 
 #pmenu{
@@ -62,55 +63,45 @@ h1{
 
 main{
     background-color: white;
-}
-
-.text{
     color: black;
     font-family: 'sriracha',sans-serif;
-    font-size: 3em;
-    line-height: 2em;
-    margin-left: 30px;
-    padding-bottom: 100px;
-}
-
-.textimag{
-    color: white;
-    font-family: 'sriracha',sans-serif;
-    font-size: 3em;
+    font-size: 3vw;
     line-height: 2em;
 }
 
-.flor{
+p{
+    margin: 30px;
+}
+
+
+.box{
+    display: inline-block;
     color: white;
     background-color: rgba(0, 0, 0, 0.397);
     max-width: 580px;
     padding: 20px 2px;
+    padding: 10px;
 }
 
 article.imagem{
+    width: 100%vw;
     background: url('imagens/background001.jpg')  fixed;
     background-size: cover;
-    padding: 70px 0px 70px 30px;
-
 }
 
 section{
     background: url('imagens/background002.jpg') fixed;
     background-size: cover;
-    padding: 70px 0px 70px 30px;
+}
+#rolagem{
+   color: black;
+   font-size: 1.4vw;
 }
 /*rodape*/
 
 footer{
+    color:white;
     background-color: black;
+    font-size: 1.4vw;
     text-align: center;
-}
-
-footer>p{
-    color: white;
-    font-size: 20px;
-    padding: 5px;
-}
-main>p>a{
-    margin: 10px;
 }
