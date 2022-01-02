@@ -67,6 +67,7 @@ main{
     font-family: 'sriracha',sans-serif;
     font-size: 3vw;
     line-height: 2em;
+    
 }
 
 p{
@@ -80,21 +81,26 @@ p{
     background-color: rgba(0, 0, 0, 0.397);
     padding: 20px 2px;
     padding: 10px;
+    text-shadow: 1px 2px 0px black;
 }
 
 article.imagem{
     width: 100%vw;
     background: url('imagens/background001.jpg')  fixed;
     background-size: cover;
+    background-position: right center;
 }
 
 section{
     background: url('imagens/background002.jpg') fixed;
+    background-position: right center;
     background-size: cover;
 }
 #rolagem{
    color: black;
    font-size: 1.4vw;
+   margin: 0px;
+   padding-left: 10px;
 }
 /*rodape*/
 
