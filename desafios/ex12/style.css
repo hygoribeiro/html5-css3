@@ -111,3 +111,6 @@ footer>p{
     font-size: 20px;
     padding: 5px;
 }
+main>p>a{
+    margin: 10px;
+}
