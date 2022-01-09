@@ -44,21 +44,21 @@
         <table>
             <thead>
                 <tr>
-                    <th rowspan="2">Àrea</th>
-                    <th rowspan="2">DICIPLINA</th>
-                    <th colspan="2">NOTAS</th>
-                    <th rowspan="2">MEDIAS</th>
+                    <th scope="col" rowspan="2">Àrea</th>
+                    <th scope="col" rowspan="2">DICIPLINA</th>
+                    <th scope="colgroup" colspan="2">NOTAS</th>
+                    <th scope="col" rowspan="2">MEDIAS</th>
                 </tr>
                 <TR>
-                    <th>
+                    <th scope="col">
                         Nota1
                     </th>
-                    <th>Nota2</th>
+                    <th scope="col">Nota2</th>
                 </TR>
             </thead>
             <tbody>
                 <tr>
-                    <th rowspan="4">EXATAS</th>
+                    <th scope="rowgroup" rowspan="4">EXATAS</th>
                     <td>Matematica</td>
                     <td class="nummeio">0.0</td>
                     <td class="nummeio">0.0</td>
@@ -83,13 +83,13 @@
                     <td class="nummeio">0.0</td>
                 </tr>
                 <tr class="medias">
-                    <th class="medialeft" colspan="4">
+                    <th scope="row" class="medialeft" colspan="4">
                         Media De Exatas
                     </th>
                     <td class="nummeio">0.0</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">
+                    <th scope="rowgroup" rowspan="2">
                         HUMANAS
                     </th>
                     <td>Historia</td>
@@ -104,7 +104,7 @@
                     <td class="nummeio">0.0</td>
                 </tr>
                 <tr class="medias">
-                    <th class="medialeft" colspan="4">Media De Humanas</th>
+                    <th scope="row" class="medialeft" colspan="4">Media De Humanas</th>
                     <td class="nummeio" >0.0</td>
                 </tr>
             </tbody>
