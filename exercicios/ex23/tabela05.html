@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela responsiva</title>
+
+    <style> 
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body{
+            background-color: aqua;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .conteiner{
+            overflow-y: auto;
+        }
+
+        caption{
+            color: white;
+            background-color: rgba(0, 0, 0, 0.993);
+            padding: 6px; 
+        }
+
+        table{
+        position: relative;
+           width: 700px;
+           background-color: white;
+           border-collapse: collapse;
+           
+        }
+        
+        thead>tr>th{
+            position: sticky;
+            top: 0;
+            background-color:rgba(59, 56, 56, 0.534) ;
+        }
+
+        tbody>tr:nth-child(2n){
+            background-color: rgba(0, 255, 255, 0.452);
+        }
+
+        th{
+            background-color: rgba(59, 56, 56, 0.534);
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        .posica{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <table>
+            <caption>
+                dados de quntidade de população
+            </caption>
+            <thead>
+                <tr>
+                    <th scope="col">posição</th>
+                    <th scope="col">unidade federativa</th>
+                    <th scope="col">população</th>
+                    <th scope="col">% da pop. total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="posica">1</td>
+                    <td>são paulo</td>
+                    <td>46 649 132	</td>
+                    <td class="posica">21,9%</td>
+                </tr>
+                <tr>
+                    <td class="posica">2</td>
+                    <td>minas gerais</td>
+                    <td>21 411 923	</td>
+                    <td class="posica">10,1%	</td>
+                </tr>
+                <tr>
+                    <td class="posica">3</td>
+                    <td>rio de janeiro</td>
+                    <td>21 411 923	</td>
+                    <td class="posica">10,1%</td>
+                </tr>
+                <tr>
+                    <td class="posica">4</td>
+                    <td>bahia</td>
+                    <td>14 985 284</td>
+                    <td class="posica">7,1%</td>
+                </tr>
+                <tr>
+                    <td class="posica">5</td>
+                    <td>paraná</td>
+                    <td>11 597 484	</td>
+                    <td class="posica">5,4%</td>
+                </tr>
+                <tr>
+                    <td class="posica">6</td>
+                    <td>rio grande do sul</td>
+                    <td>11 466 630	</td>
+                    <td class="posica">5,4%	</td>
+                </tr>
+                <tr>
+                    <td class="posica">7</td>
+                    <td>pernambuco</td>
+                    <td>9 674 793	</td>
+                    <td class="posica">4,5%	</td>
+                </tr>
+                <tr>
+                    <td class="posica">8</td>
+                    <td>ceará	</td>
+                    <td>9 240 580</td>
+                    <td class="posica">4,3%	</td>
+                </tr>
+                <tr>
+                    <td class="posica">9</td>
+                    <td>Pará</td>
+                    <td>8 777 124</td>
+                    <td class="posica">4,1%</td>
+                </tr>
+                <tr>
+                    <td class="posica">10	</td>
+                    <td>santa catarina</td>
+                    <td>7 338 473</td>
+                    <td class="posica">3,4%</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
